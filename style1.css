@@ -1,0 +1,131 @@
+body {
+	background: radial-gradient(#000000, #FFFFFF);
+
+//linear-gradient(217deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%),
+//linear-gradient(127deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%),
+//linear-gradient(336deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%);
+
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+    }
+
+@keyframes gradient {
+0%  {
+	background-position: 100% 100%;
+	background-size: 200% 200%;
+    }
+25% {
+	background-position: 40% 40%;
+	background-size: 500% 500%;
+    }
+50% {
+	background-position: 80% 40%;
+	background-size: 250% 250%;
+    }
+75% {
+	background-position: 50% 100%;
+	background-size: 150% 150%;
+    }
+100%{
+	background-position: 100% 100%;
+	background-size: 200% 200%;
+    }
+}
+
+
+
+
+
+.wrapper{
+display:grid;
+grid-template-columns: 12% 20% 1% 16% 1% 36% 12%;
+}
+
+.wrapper1{
+position:relative;
+display:grid;
+height: 300px;
+grid-template-columns: 10% 80% 10%;
+}
+
+.wrapper0{
+position:relative;
+display:grid;
+height: 500px;
+grid-template-columns: 10% 80% 10%;
+}
+
+.wrapper11{
+display:grid;
+grid-template-columns: 20% 40% 25% 10% 5%;
+}
+
+.wrapper2{
+position:relative;
+display:grid;
+grid-template-columns: 20% 20% 20% 20%;
+}
+
+.wrapper31{
+display:grid;
+grid-template-columns: 5% 10% 1% 26% 18% 40%;
+}
+
+.wrapper41{
+display:grid;
+grid-template-columns: 5% 10% 1% 24% 20% 35% 5%;
+}
+
+.wrapper51{
+display:grid;
+grid-template-columns: 5% 40% 50% 5%;
+}
+
+.container img{
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}​
+
+.container1 img{
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}​
+
+.bott {
+  position: absolute;
+  top: 8px;
+  right: 30%;
+}
+
+.bote {
+  position: absolute;
+  top: 8px;
+  right: 30%;
+}
+
+.botq {
+  position: absolute;
+  top: 8px;
+  right: 30%;
+}
+
+.bt {
+  position: absolute;
+  top: 8px;
+  right: 10%;
+}
+
+
+
+
+
+audio {
+    display:block;
+    margin: auto;
+ }

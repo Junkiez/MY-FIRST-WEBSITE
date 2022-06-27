@@ -1,0 +1,75 @@
+body {
+	background: linear-gradient(0.35turn, #000000, #FFFFFF, #000000);
+
+//linear-gradient(217deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%),
+//linear-gradient(127deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%),
+//linear-gradient(336deg, rgba(0,0,0,.8), rgba(255,255,255,0) 70.71%);
+
+	background-size: 150% 150%;
+	animation: gradient 5s ease infinite;
+    }
+
+@keyframes gradient {
+0%  {
+	background-position: 0% 0%;
+    }
+50% {
+	background-position: 100% 100%;
+    }
+100%{
+	background-position: 0% 0%;
+    }
+}
+
+
+#back{ 
+	width: 80%;
+	//height: 40%;
+	left:10%; 
+	//position:absolute; 
+	z-index:0;
+}
+
+#ava{
+	width: 20%;
+    left:12%; 
+	top:5%; 
+	//position:relative; 
+	z-index:1;
+}
+#nick{
+	font-size: 5vw;
+    color: #FFFFFF; 
+	left:33.5%; 
+	width:15%;
+	top:5%; 
+	//position:relative; 
+	 z-index:1;
+}
+#about{
+	flex: 2;
+	font-family: Consolas,monaco,monospace; 
+	font-size: 24px; 
+	color: #FFFFFF; 
+	width:38%;
+	right:12%; 
+	top:7%; 
+	//position:relative; 
+	//z-index:1;
+}
+.head{
+	display: flex;
+	position: relative;
+}
+.block1{
+	flex: 1;
+}
+.block2{
+	flex: 1;
+}
+.block3{
+	flex: 1;
+}
+.block4{
+	flex: 1;
+}
